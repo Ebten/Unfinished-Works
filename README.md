@@ -8,7 +8,7 @@ Circles is a simple program that wherever you click in the window a circle is cr
 As you may predict this can take up alot of processing power so be careful!
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -39,7 +39,7 @@ pressures containing the amount of trees, such as space to grow or competition f
 
 
 
-
+--------------------------------------------------------------------------------------------------------------------------------------
 
 
 
