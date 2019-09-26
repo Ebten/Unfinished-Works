@@ -65,3 +65,4 @@ This program also has some functions to change things during it:
   - S = gives the squares a little black square that is drawn behind it, serving the purpose of a shadow.
   - C = Changes the color of all of the uninfected squares
   - V = spawns an infected square (suggest using this only once)
+  - D = Causes the squares to be drawn either as an outline or a full square (default is full)
