@@ -43,17 +43,14 @@ pressures containing the amount of trees, such as space to grow or competition f
 
 
 
-Virus Simulator was a program I initially created to be a test program for when objects touch. At the time of creating the
+Virus was a program I initially created to be a test program for when objects touch. At the time of creating the
 project, I didn't know any convenience functions for testing if one object was touching another, So I had to improvise and test it
 on my own. It took a long time to figure it out and tons of testing but this program shows my progress and success! This is why
 you will see the squares changing their color slightly whenever they touch another square, it signifies that it is touching something.
 
-The program starts out by creating 100 squares in the programs area, each with a random integer for its x and y (thus why
-this process takes so long). Once a square is created, it will move at a constant rate around the screen, bouncing off walls and going
+The program starts out by creating 100 squares in the programs area, each with a random integer for its x and y. 
+Once a square is created, it will move at a constant rate around the screen, bouncing off walls and going
 in the opposite direction of the wall it hit, think of the screen saver icon that bounces around the screen for DVDs.
-
-Once all of the squares are created, the "loading..." text will disappear along with the square that was used with it moving back and
-forth, and the program will begin!
 
 The whole idea with this is to create a virus square that will potentially infect the entire group. Whenever an infected square touches
 another uninfected square, then the uninfected square will become infected. It is important to know that once a square is infected,
@@ -62,7 +59,5 @@ chance to the idea that a square may survive!
 
 This program also has some functions to change things during it:
 
-  - S = gives the squares a little black square that is drawn behind it, serving the purpose of a shadow.
   - C = Changes the color of all of the uninfected squares
   - V = spawns an infected square (suggest using this only once)
-  - D = Causes the squares to be drawn either as an outline or a full square (default is full)
